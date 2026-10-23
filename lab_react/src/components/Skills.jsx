@@ -1,11 +1,11 @@
-function OtherSkills() {
+function Skills() {
   return (
     <section className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm space-y-6">
       <div>
         <h3 className="text-xl font-bold text-slate-900 border-b-2 border-slate-200 pb-2 mb-3">
-          Знання ПК:
+          Знання ПК та навички:
         </h3>
-        <ul className="flex flex-wrap gap-2 list-none p-0 m-0">
+        <ul className="flex flex-wrap gap-2 list-none p-0 m-0 mb-4">
           <li className="bg-sky-50 border border-sky-200 text-slate-800 text-sm font-medium px-3 py-1 rounded-md">
             C#
           </li>
@@ -22,14 +22,17 @@ function OtherSkills() {
             JavaScript
           </li>
         </ul>
+        <p className="text-slate-700 leading-relaxed pt-2">
+          Базові знання зі забезпечення інформаційної безпеки систем та мереж.
+        </p>
       </div>
 
       <div>
         <h3 className="text-xl font-bold text-slate-900 border-b-2 border-slate-200 pb-2 mb-3">
           Іноземні мови:
         </h3>
-        <p className="text-slate-700 leading-relaxed">
-          Англійська мова — розмовний рівень.
+        <p className="text-slate-700">
+          Англійська мова — рівень В2.
         </p>
       </div>
 
@@ -38,7 +41,7 @@ function OtherSkills() {
           Додаткова інформація:
         </h3>
         <ul className="list-disc list-inside text-slate-700 space-y-1 pl-1">
-          <li>Сімейний стан — неодружений, дітей немає</li>
+          <li>Сімейний стан – неодружений, дітей немає</li>
           <li>Наявність закордонного паспорта</li>
           <li>Водійські права категорії «В»</li>
         </ul>
@@ -47,4 +50,4 @@ function OtherSkills() {
   );
 }
 
-export default OtherSkills;
+export default Skills;

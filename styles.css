@@ -38,7 +38,7 @@ ul {
 }
 
 h2 {
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 h3 {
@@ -71,6 +71,7 @@ li {
 }
 
 .contacts {
+    margin-top: 15px;
     padding: 0;
     list-style: none;
 }
@@ -92,7 +93,7 @@ a:hover {
 }
 
 a:focus {
-    outline: 2px solid #f5c451;
+    outline: 2px solid #2c00f281;
     outline-offset: 4px;
 }
 
@@ -111,23 +112,6 @@ section {
 
 section > h3:first-child {
     margin-top: 0;
-}
-
-.goal {
-    background-color: #eef4ff;
-    border-left: 5px solid #3973ac;
-}
-
-.experience {
-    padding: 0;
-    list-style: none;
-}
-
-.experience > li {
-    margin-top: 18px;
-    margin-bottom: 0px;
-    border-left: 3px solid #b9cee5;
-    padding-left: 15px;
 }
 
 .period {
@@ -164,13 +148,6 @@ section > h3:first-child {
     }
 }
 
-.education {
-    ul {
-        list-style: none;
-        padding: 0;
-    }
-}
-
 .skills-languages {
     display: flex;
     flex-wrap: wrap;
@@ -186,6 +163,10 @@ section > h3:first-child {
     border-radius: 5px;
     padding: 5px 12px;
     margin: 0;
+}
+
+#section-p {
+    margin-top: 20px;
 }
 
 footer {

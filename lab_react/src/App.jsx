@@ -1,9 +1,8 @@
-import Header from './components/Header';
-import Goal from './components/Goal';
-import Experience from './components/Experience';
-import OtherSkills from './components/OtherSkills';
-import Footer from './components/Footer';
-import Education from './components/Education';
+import Header from "./components/Header";
+import Experience from "./components/Experience";
+import Education from "./components/Education";
+import Skills from "./components/Skills";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,11 +10,10 @@ function App() {
       <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-xl border border-slate-200 overflow-hidden">
         <Header />
         <main className="p-6 sm:p-8 space-y-6">
-          <Goal />
           <Experience />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <Education />
-            <OtherSkills />
+            <Skills />
           </div>
         </main>
         <Footer />
