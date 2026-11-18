@@ -67,7 +67,7 @@ closeBtn.addEventListener('click', () => {
     modal.style.display = 'none';
 });
 
-// task 3
+// task 4
 const themeToggleBtn = document.getElementById('theme-toggle');
 const bodyElement = document.body;
 
